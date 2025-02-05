@@ -335,15 +335,42 @@
 
 
 /* Mobile Responsive */
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 1000px){
     .who__container{
         max-width: 1000px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .who__content h1{
+        font-size: 2rem;
+    }
+    .who__content p{
+        font-size: 1rem;
     }
     .what__container{
         max-width: 1000px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .what__content h1{
+        font-size: 2rem;
+    }
+    .what__content p{
+        font-size: 1rem;
     }
     .music__type__container{
         max-width: 1000px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .music__type__content h1{
+        font-size: 2rem;
+    }
+    .music__type__content p{
+        font-size: 1rem;
     }
 
 }
