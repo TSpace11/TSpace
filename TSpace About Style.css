@@ -335,9 +335,9 @@
 
 
 /* Mobile Responsive */
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 2000px){
     .who__container{
-        max-width: 1500px;
+        max-width: 2000px;
         height: auto;
         padding-bottom: 20px;
         padding-top: 20px;
@@ -349,7 +349,7 @@
         font-size: 1rem;
     }
     .what__container{
-        max-width: 1500px;
+        max-width: 2000px;
         height: auto;
         padding-bottom: 20px;
         padding-top: 20px;
@@ -361,9 +361,9 @@
         font-size: 1rem;
     }
     .music__type__container{
-        max-width: 1500px;
+        max-width: 2000px;
         height: auto;
-        padding-bottom: 20px;
+        padding-bottom: 70px;
         padding-top: 20px;
     }
     .music__type__content h1{
