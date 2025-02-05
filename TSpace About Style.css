@@ -369,27 +369,6 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .who__content h1{
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .who__content h2{
-        font-size: 2rem;
-    }
-
-    .who__content p{
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .who__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-}
-
 @media screen and (max-width: 768px){
     .what__container{
         display: grid;
@@ -424,26 +403,6 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .what__content h1{
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .what__content h2{
-        font-size: 2rem;
-    }
-
-    .what__content p{
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .what__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-}
 
 @media screen and (max-width: 768px){
     .music__type__container{
@@ -479,26 +438,6 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .music__type__content h1{
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .music__type__content h2{
-        font-size: 2rem;
-    }
-
-    .music__type__content p{
-        margin-top: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .music__type__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
-}
 
 
 
