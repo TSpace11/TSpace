@@ -5,6 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.wrapper{
+    width:1000px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
 .navbar{
     background-color:black;
     height: 80px;
@@ -336,95 +342,13 @@
 
 /* Mobile Responsive */
 @media screen and (max-width: 768px){
-    .who__container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
+    .wrapper{
+        width:1000px;
+        padding: 100px 0;
         margin: 0 auto;
-        height: 90vh;
-    }
-
-    .who__content{
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    .who__content h1{
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
-
-    .who__content p{
-        margin-top: 1rem;
-        font-size: 1rem;
-    }
-    .who__img{
-        width:100%;
     }
 }
 
-@media screen and (max-width: 768px){
-    .what__container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
-    }
-
-    .what__content{
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    .what__content h1{
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
-
-    .what__content p{
-        margin-top: 1rem;
-        font-size: 1rem;
-    }
-    .what__img{
-        width:100%;
-    }
-}
-
-
-@media screen and (max-width: 768px){
-    .music__type__container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
-    }
-
-    .music__type__content{
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    .music__type__content h1{
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
-
-    .music__type__content p{
-        margin-top: 1rem;
-        font-size: 1rem;
-    }
-    .music__type__img{
-        width:100%;
-    }
-}
 
 
 
