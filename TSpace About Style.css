@@ -352,17 +352,13 @@
     }
 
     .who__content h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
-    }
-
-    .who__content h2{
-        font-size: 3rem;
     }
 
     .who__content p{
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .who__img{
         width:100%;
@@ -386,17 +382,13 @@
     }
 
     .what__content h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
-    }
-
-    .what__content h2{
-        font-size: 3rem;
     }
 
     .what__content p{
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .what__img{
         width:100%;
@@ -421,17 +413,13 @@
     }
 
     .music__type__content h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-top: 2rem;
-    }
-
-    .music__type__content h2{
-        font-size: 3rem;
     }
 
     .music__type__content p{
         margin-top: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .music__type__img{
         width:100%;
