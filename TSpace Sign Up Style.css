@@ -432,22 +432,51 @@
 }
 
 @media (max-width: 800px){
-    .contact-inputs{
+    .contact-container{
         padding-left: 20px;
         padding-right: 20px;
     }
+    
+    .contact-left{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
     .contact-left-title h2{
         padding-left: 20px;
         padding-right: 20px;
     }
+    
+    .contact-inputs{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
     .contact-left textarea{
         padding-left: 20px;
         padding-right: 20px;
     }
+    
+    .contact-inputs:focus{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .contact-inputs::placeholder{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
     .contact-left button{
         padding-left: 20px;
         padding-right: 20px;
     }
+    
+    .contact-left button img{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 }
 
 footer{
