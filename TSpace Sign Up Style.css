@@ -431,16 +431,9 @@
     }
 }
 
-@media screen and (max-width: 480px){
-    .contact-container{
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .contact-left-title h2{
-        font-size: 3rem;
-        align-items: center;
+@media screen and (max-width: 800px){
+    .contact-inputs{
+        width: 80vw;
     }
 }
 
