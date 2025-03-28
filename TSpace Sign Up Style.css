@@ -431,12 +431,12 @@
     }
 }
 
-@media (max-width: 2500px){
+@media (max-width: 1000px){
     .contact-container{
         padding-left: 20px;
         padding-right: 20px;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     
     .contact-left{
@@ -475,7 +475,7 @@
         padding-right: 20px;
     }
     
-    }
+}
 
 
 
