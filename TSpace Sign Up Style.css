@@ -101,7 +101,7 @@
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1000px){
     .navbar__container{
         display: flex;
         justify-content: space-between;
@@ -197,59 +197,183 @@
     }
 }
 
+
+/* Hero Section CSS */
+.who{
+    background-color:#fff;
+}
+
+.who__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color:#fff;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.who__content h1{
+    font-size: 4rem;
+    background-color:#9C0000;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.who__content p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.who__img--container{
+    text-align: center;
+}
+
+#who__img{
+    height: 90%;
+    width: 90%;
+}
+
+.what{
+    background-color: black;
+}
+
+.what__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color:black;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.what__content h1{
+    font-size: 4rem;
+    background-color:#9C0000;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.what__content p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #fff;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.what__img--container{
+    text-align: center;
+}
+
+#what__img{
+    height: 90%;
+    width: 90%;
+}
+
+.music__type{
+    background-color:#fff;
+}
+
+.music__type__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color:#fff;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.music__type__content h1{
+    font-size: 4rem;
+    background-color:#9C0000;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.music__type__content p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.music__type__img--container{
+    text-align: center;
+}
+
+#music__type__img{
+    height: 90%;
+    width: 90%;
+}
+
+
 /* Mobile Responsive */
-@media screen and (max-width: 768px){
-    .main__container{
-        display: grid;
-        grid-template-columns: auto;
-        align-items: center;
-        justify-self: center;
-        width: 100%;
-        margin: 0 auto;
-        height: 90vh;
+@media screen and (max-width: 1000px){
+    .who__container{
+        max-width: 1000px;
+        height: auto;
+        padding-bottom: 70px;
+        padding-top: 20px;
     }
-
-    .main__content{
-        text-align: center;
-        margin-bottom: 4rem;
-    }
-
-    .main__content h1{
-        font-size: 2.5rem;
-        margin-top: 2rem;
-    }
-
-    .main__content h2{
-        font-size: 3rem;
-    }
-
-    .main__content p{
-        margin-top: 1rem;
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .main__content h1{
-        font-size: 2rem;
-        margin-top: 3rem;
-    }
-
-    .main__content h2{
+    .who__content h1{
         font-size: 2rem;
     }
-
-    .main__content p{
-        margin-top: 2rem;
-        font-size: 1.5rem;
+    .who__content p{
+        font-size: 1rem;
+    }
+    .what__container{
+        max-width: 1000px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .what__content h1{
+        font-size: 2rem;
+    }
+    .what__content p{
+        font-size: 1rem;
+    }
+    .music__type__container{
+        max-width: 1000px;
+        height: auto;
+        padding-bottom: 70px;
+        padding-top: 20px;
+    }
+    .music__type__content h1{
+        font-size: 2rem;
+    }
+    .music__type__content p{
+        font-size: 1rem;
     }
 
-    .main__btn{
-        padding: 12px 36px;
-        margin: 2.5rem 0;
-    }
 }
-
 
 footer{
     background-color: black;
