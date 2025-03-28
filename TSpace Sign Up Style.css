@@ -404,14 +404,7 @@
         padding-bottom: 2rem;
     }
 
-    .button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        height: 80px;
-        margin: 0;
-    }
+
 
     .navbar__toggle .bar{
         display: flex;
@@ -476,7 +469,7 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    .buttonsubmit{
+    .button{
         padding-left: 20px;
         padding-right: 20px;
     }
