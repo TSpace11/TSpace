@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>TSpace</title>
-        <link rel="stylesheet" href="TSpace Sign Up Style.css"/>
+        <link rel="stylesheet" href="TSpace Blog Style.css"/>
         <script src="https://kit.fontawesome.com/208c8fc391.js" crossorigin="anonymous"></script>
     </head>
     
@@ -34,21 +34,40 @@
             </div>
         </nav>
 
-        <div class="contact-container">
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-                <div class="contact-left-title">
-                    <h2>Contact Me</h2>
-                </div>
-                <input type="hidden" name="access_key" value="a73b148b-bba1-4225-b119-acb6da733a8a">
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-                <button type="submit">Submit<img src="image/arrow-icon-1178.png" alt=""></button>
-            </form>
+        <!-- Side Bar -->
+        <div class="sidebar" id="mySidebar">
+            <button class="bar__item side__button large"
+            onclick="side__close()">Close &times;</button>
+            <li class="sidebar__list">
+                <a href="https://tspace11.github.io/TSpace/blog-tonic.html" class="sidebar__link">Tonic Practice App</a>
+            </li>
+            <li class="sidebar__list">
+                <a href="https://tspace11.github.io/TSpace/blog-today's-geoguessr-daily-challenge.html" class="sidebar__link">Today's Geoguessr Daily Challenge</a>
+            </li>
         </div>
+          
+        <div id="main">
+          
+        <div class="teal">
+            <button id="openNav" class="side__button teal xlarge" onclick="side__open()">All Blogs &#8649;</button>
 
+        <!-- Hero Section -->
+         <div class="container">
+            <main>
+                <article>
+                    <h1>Today's Geoguessr Daily Challenge</h1>
+                    <br>
+                    <p class="post-meta">
+                        Published on February 26, 2025
+                    </p>
+                    <br>
+                    <p>
+                        Just finished the geoguessr daily challenge, today's game is about country borders, it's fun to play. I think it's my first time seeing Bosnia and Croatia border. Hope to see more Bosnia coverage in the future.
+                </article>
+            </main>
+         </div>
 
-          <footer>
+        <footer>
             <p>© 2025 TSpace. All rights reserved.</p>
          </footer>
 
